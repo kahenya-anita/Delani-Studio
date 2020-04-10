@@ -42,7 +42,7 @@ img {
 }
 
 .navbar {
-    font-size: medium;
+    font-size: 1.2rem;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
 
@@ -64,7 +64,7 @@ img {
  }
 
  .navbar.nav a {
-     padding: 0 1rem;
+     padding: 1 2rem;
  }
 
  .navbar.nav a:hover {
@@ -97,12 +97,12 @@ img {
 
  .section-b img {
      position: relative;
-     background: url('../img/04.jpg') no-repeat bottom/cover;
+     background: url('../img/04.jpg') no-repeat bottom center/cover;
      height: 600px;
  }
 
  .section-b-inner {
-     color: fuchsia;
+     color: oldlace;
      height: 100%;
      flex-direction: column;
      align-items: center;
@@ -311,8 +311,4 @@ img {
          text-align: center;
      }
 
-     .section-footer div:nth-child(2),
-     .section-footer div:nth-child(3) {
-         display: none;
-     }
  }
