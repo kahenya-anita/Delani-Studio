@@ -12,7 +12,7 @@ This project is a web application for Delani studio that shows details about the
 <img src="https://raw.githubusercontent.com/Owiti-Charles/Delani-Studio/master/images/delanihome.png" width="900px" height="440px">
 
 ## Live Page 
-https://kahenya-anita.github.io/Delani-Studio 
+*[https://kahenya-anita.github.io/Delani-Studio]
 
 
 ## Installation / Setup instruction
@@ -47,9 +47,10 @@ https://kahenya-anita.github.io/Delani-Studio
 
 ## Contact Information 
 
-If you have any question or contributions, please email me at [anitakahenya1@gmail.com]
-You can also reach me directly through my cell 0799948716
+* If you have any question or contributions, please email me at [anitakahenya1@gmail.com]
+* You can also reach me directly through my cell 0799948716
 
 ## License
-* *MIT License:*
-* Copyright (c) 2019 **Anita Kahenya**
+
+* Licenced under [MIT] (LICENCE).
+* Copyright (c) 2020 **ANITA KAHENYA**
