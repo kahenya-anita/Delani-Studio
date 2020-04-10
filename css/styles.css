@@ -95,24 +95,32 @@ img {
 
  /*Section B */
 
- .section-b img {
+ .section-b  .overlay .img {
      position: relative;
-     background: url('../img/04.jpg') no-repeat bottom center/cover;
-     height: 600px;
+     background-position: bottom center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     overflow: hidden;
  }
 
- .section-b-inner {
-     color: oldlace;
-     height: 100%;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
+ .section-b .overlay:hover .img img {
+     transform: scale(1,2);
+
+ }
+
+ .section-b .overlay .section-b-inner {
+     position: absolute;
+     background-color: rgba(199, 146, 146, 0.7);
      text-align: center;
-     margin: auto;
-     max-width: 860px;
-     padding: 5rem 0;
+     padding: 15px;
  }
 
+
+ .section-b .overlay 
+ .section-b-inner {
+     transform: scaleY(0);
+
+ }
  .section-b-inner h3 {
    font-size: 2rem;  
  }
