@@ -1,7 +1,7 @@
  :root {
      --primary-color: #333 ;
      --secondary-color: #444;
-     --overlay-color: rgba(0,0,0,0.7);
+     --overlay-color: rgba(223, 186, 186, 0.7);
  }
 
  *{
@@ -76,7 +76,7 @@ img {
      margin: 2rem 0;
  }
 
- .section-a.container {
+ .section-a .container {
      display: grid;
      grid-template-columns: repeat(2,1fr);
      grid-gap: 3rem;
@@ -95,34 +95,28 @@ img {
 
  /*Section B */
 
- .section-b  .overlay .img {
+ .section-b {
      position: relative;
-     background-position: bottom center;
-     background-size: cover;
-     background-repeat: no-repeat;
-     overflow: hidden;
+     background: url('../img/01.jpg') no-repeat bottom center/cover;
+     height: 600px;
  }
 
- .section-b .overlay:hover .img img {
-     transform: scale(1,2);
-
- }
-
- .section-b .overlay .section-b-inner {
-     position: absolute;
-     background-color: rgba(199, 146, 146, 0.7);
-     text-align: center;
-     padding: 15px;
- }
-
-
- .section-b .overlay 
  .section-b-inner {
-     transform: scaleY(0);
+     color: #ccc;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     margin: auto;
+     max-width: 860px;
+     padding: 5rem 0;
+ }
 
  }
  .section-b-inner h3 {
-   font-size: 2rem;  
+   font-size: 2rem;
  }
 
  .section-b-inner h2 {
@@ -177,7 +171,7 @@ img {
  .section-footer .container {
      display: grid;
      grid-template-columns: repeat(4,1fr);
-     grip-gap: 1rem;
+     grid-gap: 1rem;
 
  }
 
@@ -265,7 +259,7 @@ img {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgb(235, 195, 195);
+    background-color: var(--overlay-color);
  }
 
  /*Media Queriies*/
